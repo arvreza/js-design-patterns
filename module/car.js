@@ -32,3 +32,10 @@ class Jaguar extends Car {
 let jag = new Jaguar("LX", "Green");
 jag.horsepower(360);
 console.log(jag.toString());
+
+// module.exports = Car;
+
+export {
+    Car,
+    Jaguar
+};

@@ -1,5 +1,6 @@
-'use strict';
-import Car from './car.js';
+import {Jaguar} from './car';
+
+// const Car = require('./car');
 
 let jag = new Jaguar("LX", "Green");
 jag.horsepower(360);
